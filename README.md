@@ -19,12 +19,16 @@ Para testar o projeto basta:
    cd buscaPrecos
    python3 -m venv venv
    ```
-3. Instalar as dependências necessárias
+3. Iniciar o ambiente virtual
+   ```
+   source venv/bin/activate
+   ```
+4. Instalar as dependências necessárias
    ```
    pip install -r requirements.txt
    ```
-4. Executar o projeto
+5. Executar o projeto
    ```
    python src/main.py
    ```
-5. O resultado será gravado em `Products.xlsx`
+6. O resultado será gravado em `Products.xlsx`
